@@ -10,16 +10,16 @@
 </head>
 
 <header>
-    <h1>MIRIA: </h1>
+    <h1>Miria: </h1>
 </header>
 
 <div id="busca">
     <button onclick="clickMenu()" >Integrantes</button>
-
     <a href="../Tecnologia/tecnologia.html" class="tec">Tecnologias</a>
-   </div>
+</div>
 
-  <nav class="menu"> 
+
+<nav class="menu"> 
       
         <ul id="itens">
             <li> <a href="../Integrantes/Giovanna.html">Giovanna Silva</a></li>
@@ -30,17 +30,46 @@
             <li> <a href="../Integrantes/mia.html">Miria Rogério</a> </li>
         </ul> 
       
-      </nav>
+</nav>
 
-      <script>
-        function clickMenu() {
-         let menu = document.getElementById("itens");
-         menu.classList.toggle("active");
-     
-        }
- </script>
+<script>
+     function clickMenu() {
+     let menu = document.getElementById("itens");
+     menu.classList.toggle("active");
+    }
+</script>
+
 <body>
-      
+    <main>
+        <div id="perfil-integrante">
+            <div class="foto-perfil">
+                <img src="../IMAGEM/Miria.png" alt="Foto de Miria Rogério">
+            </div>
+            
+            <div class="info-integrante">
+                <h2>Sobre mim</h2>
+                <p>Meu nome é Miria Rogério, sou estudante de Análise e Desenvolvimento de Sistemas. Tenho interesse especial em desenvolvimento front-end e design de interfaces. Neste projeto, fui responsável pela aplicação do HTML5 e CSS3.</p>
+                
+                <h2>Formação</h2>
+                <p>Análise e Desenvolvimento de Sistemas - UNINTER</p>
+                
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript básico</li>
+                    <li>Design de interfaces</li>
+                </ul>
+                
+                <h2>Contato</h2>
+                <p>Email: miria@exemplo.com</p>
+                <p>RU: 5152333</p>
+            </div>
+        </div>
+    </main>
     
+    <footer>
+        <p>informações: </p>
+    </footer>
 </body>
 </html>
